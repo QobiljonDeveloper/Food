@@ -1,3 +1,47 @@
-.section{
+.contact {
+  width: 100%;
+  background: $bg-sy;
+  margin: 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
 
+  &__wrapper {
+    max-width: 750px;
+    text-align: center;
+
+    .form-box {
+      width: 750px;
+      display: flex;
+      border: 1px solid #dcdcdc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-top: 46px;
+
+      input {
+        flex: 1;
+        border: none;
+        padding: 0 20px;
+        font-size: 16px;
+        outline: none;
+        padding: 25px;
+      }
+
+      .send__btn {
+        width: 160px;
+        background: $bg-py;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .send__btn:hover {
+        background: #e67b1d;
+      }
+    }
+  }
 }
