@@ -1,0 +1,76 @@
+.away {
+  width: 100%;
+  background: $bg-sy;
+  padding: 60px 0;
+
+  &-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &-left {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      text-align: start;
+      margin-bottom: 30px;
+    }
+
+    .gray {
+      color: $color-sy;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+      &__apple {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 20px;
+        background: $color-py;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          color: $color-py;
+          background: transparent;
+          border: 1px solid #ddd;
+        }
+      }
+      &__play {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 20px;
+        color: $color-py;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.testimonal {
+  margin: 140px auto;
+  max-width: 804px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .gray {
+      text-align: center;
+      color: $color-sy;
+      margin-top: 20px;
+    }
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+    p {
+      max-width: 70%;
+      text-align: center;
+    }
+    .stars {
+      display: flex;
+      gap: 4px;
+      i {
+        color: $bg-py;
+      }
+    }
+  }
+  &__texts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    p{
+        font-size: 14px;
+        color: $color-sy;
+    }
+  }
+}
