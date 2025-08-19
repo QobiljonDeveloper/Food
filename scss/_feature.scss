@@ -1,0 +1,29 @@
+.feature {
+  margin: 83px;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+  }
+
+  &-card {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      font-weight: 700;
+      font-size: 25px;
+      margin: 33px 0 15px 0;
+    }
+    p {
+      text-align: center;
+      line-height: 1.5;
+      font-weight: 400;
+      color: $color-sy;
+    }
+  }
+}
+
+

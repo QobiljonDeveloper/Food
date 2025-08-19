@@ -1,0 +1,23 @@
+
+.hero{
+    &__wrapper{
+        display: flex;
+        align-items: center;
+    }
+    &__content{
+        width: 45%;
+        h1{
+            font-size: 48px;
+        }
+        p{
+            margin: 42px 0 50px;
+        }
+    }
+    &__btns{
+        display: flex;
+        gap: 30px;
+    }
+    &__image{
+        width: 55%;
+    }
+}

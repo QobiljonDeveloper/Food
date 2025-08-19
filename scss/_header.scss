@@ -1,0 +1,18 @@
+
+.navbar{
+    height: 106px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    &__lists{
+        display: flex;
+        gap: 41px;
+        font-weight: 500;
+        flex: 1;
+    }
+    &__link{
+        &:hover{
+            color: $bg-py;
+        }
+    }
+}

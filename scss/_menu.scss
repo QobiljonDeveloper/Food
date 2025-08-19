@@ -1,0 +1,101 @@
+.menu {
+  padding: 5rem 0;
+  text-align: center;
+
+  .sub-title {
+    color: #d4a373;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+
+  .sec {
+    max-width: 650px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+  .menu-card {
+    background: #fff;
+    border-radius: 70px 20px 20px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: left;
+
+    .card__img {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      img {
+        width: 100%;
+        border-radius: 0 0 70px 0;
+      }
+    }
+    .card__body {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card__text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        font-size: 25px;
+        font-weight: 700;
+        color: $color-py;
+      }
+    }
+    p {
+      color: $color-sy;
+      line-height: 1.5;
+    }
+    .card__buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background: $bg-py;
+        color: white;
+        font-size: 25px;
+        font-weight: 300;
+      }
+      .stars {
+        display: flex;
+        gap: 4px;
+        i {
+          color: $bg-py;
+        }
+      }
+    }
+  }
+}
